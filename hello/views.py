@@ -3,4 +3,4 @@
 from django.http import HttpResponse
 
 def first_page(request):
-    return HttpResponse("世界好")
+    return HttpResponse("home/index.html")
