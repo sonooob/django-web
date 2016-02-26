@@ -25,5 +25,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'hello.views.first_page'),
-    url(r'^west/', include('west.urls')),
+    url(r'^west/', include('west.urls'))
+
 )
